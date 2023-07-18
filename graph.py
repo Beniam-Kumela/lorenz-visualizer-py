@@ -40,7 +40,5 @@ for i in range(n_iter):
     z_val.append(z)
    
 ax.plot(x_val, y_val, z_val, color = 'b')
-
-plt.show()    
-
 plt.savefig('Lorenz_System_Graph.png')
+plt.show()    
