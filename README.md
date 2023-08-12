@@ -10,6 +10,8 @@ This repository contains a Python implementation of a Lorenz system animator. It
 
 There is also a Lorenz graph generator for those that are interested which is capable of calculating more iterations in less time.
 
+More information on the [Lorenz System](https://en.wikipedia.org/wiki/Lorenz_system).
+
 ## Table of Contents
 
 1. [Features](/README.md#features)
