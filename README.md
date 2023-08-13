@@ -30,7 +30,7 @@ More information on the [Lorenz System](https://en.wikipedia.org/wiki/Lorenz_sys
 
 ## Dependencies
 
-This project depends on the following libraries which are all compiled into the .exe:
+This project depends on the following Python libraries:
 
 - matplotlib
 - tqdm
@@ -43,17 +43,21 @@ If these are not already installed refer to step 4 in "Building and Running".
 
 1. Download the .zip file by pressing the green "Code" button and selecting "Download ZIP".
 2. Go to folder that the file was downloaded to an extract all components to a directory.
-3. While in file explorer, click on the bar with your directory, type cmd, and press Enter.
-4. If some of the dependencies are not already installed, put in the following lines one at a time in your command prompt:
+3. While in file explorer, click on the bar with your directory:
+
+![image](https://github.com/Beniam-Kumela/lorenz-visualizer-py/assets/106757076/0fa2ed79-1e38-4d7b-bc8f-44f7b53a072b)
+
+4. Type cmd in this bar and press Enter.
+5. If some of the dependencies are not already installed, put in the following lines one at a time in your command prompt:
 ```
 pip install matplotlib
 pip install tqdm
 ```
-5. Run the following line in command prompt:
+6. Run the following line in command prompt:
 ```
 python -m animate.py
 ```
-6. Once completed, the generated animation will be saved to this directory.
+7. Once completed, the generated animation will be saved to this directory.
 
 If you want to view the graphing function for the animation you can run graph.py in a virtual environment or in command line.
 
